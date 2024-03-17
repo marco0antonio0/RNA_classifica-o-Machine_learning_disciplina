@@ -54,4 +54,18 @@ model.fit(x, y, epochs=500)
 
 ### Demais etapas:
 
-    - Gerar grafico
+- Gerar grafico
+  - Extrair precisão de treinamento do histórico
+- Avaliação
+  - Avaliação do modelo de treinamento loss e accuracy
+- Fazendo Predições
+  - Realizando predições do modelo treinado com entrada de argumentos
+
+Equipe:
+
+- Developers
+  - [Marco0antonio0](https://github.com/marco0antonio0)
+- Editores texto academico
+  - [AlexsandroFernandesNascimento](https://github.com/AlexsandroFernandesNascimento)
+  - Bea
+  - Gabriel Maia
