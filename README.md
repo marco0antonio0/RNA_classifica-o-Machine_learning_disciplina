@@ -1,5 +1,7 @@
 # Predição de Chances de Ir ao Show usando RNA
 
+![img](images_readme/redes%20neurais%20artificiais.png)
+
 ## Problema de Classificação
 
 Nesta aplicação, estamos prevendo se um certo personagem fictício irá ou não a um show, usando uma Rede Neural Artificial (RNA). Utilizamos a biblioteca TensorFlow para criar a RNA para classificar as chances de ir ao show.
@@ -22,14 +24,14 @@ Para treinar nosso modelo, utilizamos a seguinte configuração:
 3. **Otimizador**:
    - Adam
 
-### Preparação dos Dados
+### 1 - Preparação dos Dados
 
 Os dados de entrada (`x`) e os rótulos de saída (`y`) são preparados da seguinte maneira:
 
 - **x** contém as características dos cenários de ir ao show.
 - **y** contém os resultados binários correspondentes (0 para não ir, 1 para ir ao show).
 
-### Construção do Modelo
+### 2 - Construção do Modelo
 
 ```python
 model = Sequential([
@@ -42,7 +44,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 ```
 
-### Treinamento do Modelo
+### 3 - Treinamento do Modelo
 
 O modelo é treinado com os dados de entrada e saída fornecidos.
 
@@ -52,14 +54,19 @@ model.fit(x, y, epochs=500)
 
 ```
 
-### Demais etapas:
+### Demais etapas
 
-- Gerar grafico
-  - Extrair precisão de treinamento do histórico
-- Avaliação
-  - Avaliação do modelo de treinamento loss e accuracy
-- Fazendo Predições
-  - Realizando predições do modelo treinado com entrada de argumentos
+### 4 - Gerar grafico
+
+- Extrair precisão de treinamento do histórico
+
+### 5 - Avaliação
+
+- Avaliação do modelo de treinamento loss e accuracy
+
+### 6 - Fazendo Predições
+
+- Realizando predições do modelo treinado com entrada de argumentos
 
 Equipe:
 
